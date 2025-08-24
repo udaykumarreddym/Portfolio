@@ -91,12 +91,57 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
+            <!-- Hero Section -->
       <section id="hero" class="hero section">
         <div class="container">
+          <!-- PASTE THE CODE STARTING FROM HERE -->
           <div class="row g-0 align-items-center">
+
+            <!-- Image Column is now FIRST in the HTML for mobile stacking -->
             <div
-              class="col-lg-6 hero-content"
+              class="col-lg-6 hero-image order-lg-2"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
+              <div class="image-container">
+                <div class="floating-elements">
+                  <div
+                    class="floating-card card-1"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  >
+                    <i class="bi bi-puzzle"></i>
+                    <span>Problem Solving</span>
+                  </div>
+                  <div
+                    class="floating-card card-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
+                  >
+                    <i class="bi bi-code-slash"></i>
+                    <span>Development</span>
+                  </div>
+                  <div
+                    class="floating-card card-3"
+                    data-aos="zoom-in"
+                    data-aos-delay="500"
+                  >
+                    <i class="bi bi-bar-chart-line"></i>
+                    <span>Data Science</span>
+                  </div>
+                </div>
+                <img
+                  src="assets/img/profile/Uday.webp"
+                  alt="Portfolio Hero"
+                  class="img-fluid hero-main-image"
+                />
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+
+            <!-- Text Column is now SECOND for mobile, but ordered FIRST for desktop -->
+            <div
+              class="col-lg-6 hero-content order-lg-1"
               data-aos="fade-right"
               data-aos-delay="100"
             >
@@ -137,47 +182,8 @@
               </div>
             </div>
 
-            <div
-              class="col-lg-6 hero-image"
-              data-aos="fade-left"
-              data-aos-delay="200"
-            >
-              <div class="image-container">
-                <div class="floating-elements">
-                  <div
-                    class="floating-card card-1"
-                    data-aos="zoom-in"
-                    data-aos-delay="300"
-                  >
-                    <i class="bi bi-puzzle"></i>
-                    <span>Problem Solving</span>
-                  </div>
-                  <div
-                    class="floating-card card-2"
-                    data-aos="zoom-in"
-                    data-aos-delay="400"
-                  >
-                    <i class="bi bi-code-slash"></i>
-                    <span>Development</span>
-                  </div>
-                  <div
-                    class="floating-card card-3"
-                    data-aos="zoom-in"
-                    data-aos-delay="500"
-                  >
-                    <i class="bi bi-bar-chart-line"></i>
-                    <span>Data Science</span>
-                  </div>
-                </div>
-                <img
-                  src="assets/img/profile/Uday.webp"
-                  alt="Portfolio Hero"
-                  class="img-fluid hero-main-image"
-                />
-                <div class="image-overlay"></div>
-              </div>
-            </div>
           </div>
+          <!-- END THE PASTED CODE BLOCK HERE -->
         </div>
       </section>
       <!-- /Hero Section -->
@@ -630,7 +636,7 @@
       <section id="achievements" class="achievements section">
         <!-- Section Title -->
         <div class="container section-title">
-          <h2>Academics & Achievements</h2>
+          <h2>Academics & Achievements</h2><br>
           <p>
             Academics: Consistently strong performance with a focus on Computer Science and Data Science.<br>
             Achievements: Selected for national-level hackathons and built impactful real-world projects.
